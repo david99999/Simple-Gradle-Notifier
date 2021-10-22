@@ -1,12 +1,12 @@
-package com.simple.gradle
+package com.david99999.gradle
 
-import com.simple.gradle.extensions.GradleNotifierConfig
-import com.simple.gradle.utils.Constants.REPORT_FAILURE_TASK_NAME
-import com.simple.gradle.utils.Constants.REPORT_SUCCESS_TASK_NAME
-import com.simple.gradle.utils.Constants.REPORT_TASK_STATUS_GROUP_NAME
-import com.simple.gradle.utils.Constants.TASK_CONFIG_EXTENSION_NAME
-import com.simple.gradle.tasks.FailureReporterTask
-import com.simple.gradle.tasks.SuccessReporterTask
+import com.david99999.gradle.extensions.GradleNotifierConfig
+import com.david99999.gradle.utils.Constants.REPORT_FAILURE_TASK_NAME
+import com.david99999.gradle.utils.Constants.REPORT_SUCCESS_TASK_NAME
+import com.david99999.gradle.utils.Constants.REPORT_TASK_STATUS_GROUP_NAME
+import com.david99999.gradle.utils.Constants.TASK_CONFIG_EXTENSION_NAME
+import com.david99999.gradle.tasks.FailureReporterTask
+import com.david99999.gradle.tasks.SuccessReporterTask
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 

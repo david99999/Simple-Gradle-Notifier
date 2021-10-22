@@ -1,4 +1,4 @@
-package com.simple.gradle.utils
+package com.david99999.gradle.utils
 
 object Constants {
     const val TASK_CONFIG_EXTENSION_NAME = "gradleNotifierConfig"

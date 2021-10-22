@@ -1,4 +1,4 @@
-package com.simple.gradle.extensions
+package com.david99999.gradle.extensions
 
 /**
  * Configuration class containing the names of the tasks to be monitored,
