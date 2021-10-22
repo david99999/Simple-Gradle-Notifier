@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "com.david99999.gradle"
-version = "0.0.1"
+version = "0.0.2"
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
@@ -34,7 +34,7 @@ dependencies {
 pluginBundle {
     website = "https://github.com/david99999/Simple-Gradle-Notifier"
     vcsUrl = "https://github.com/david99999/Simple-Gradle-Notifier"
-    tags = listOf("automation")
+    tags = listOf("task monitoring", "task reporting", "task notification")
 }
 
 gradlePlugin {
