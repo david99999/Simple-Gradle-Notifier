@@ -8,8 +8,8 @@ plugins {
     id("com.gradle.plugin-publish") version "0.14.0"
 }
 
-group = "com.david99999.gradle"
-version = "0.0.2"
+group = "io.github.david99999.gradle"
+version = "0.0.1"
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
@@ -40,11 +40,11 @@ pluginBundle {
 gradlePlugin {
     plugins {
         register("notifier") {
-            id = "com.david99999.gradle.notifier"
+            id = "io.github.david99999.gradle.notifier"
             displayName = "Simple Gradle Notifier Plugin"
             description =
                 "This plugins provides a convenient way for performing tasks after specific gradle tasks finishes or fails"
-            implementationClass = "com.david99999.gradle.NotifierPlugin"
+            implementationClass = "io.github.david99999.gradle.NotifierPlugin"
         }
     }
 }

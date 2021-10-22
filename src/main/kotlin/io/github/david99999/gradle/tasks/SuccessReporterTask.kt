@@ -1,7 +1,7 @@
-package com.david99999.gradle.tasks
+package io.github.david99999.gradle.tasks
 
-import com.david99999.gradle.extensions.GradleNotifierConfig
-import com.david99999.gradle.utils.Constants.TASK_CONFIG_EXTENSION_NAME
+import io.github.david99999.gradle.extensions.GradleNotifierConfig
+import io.github.david99999.gradle.utils.Constants.TASK_CONFIG_EXTENSION_NAME
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction
 
