@@ -31,9 +31,9 @@ apply(plugin = "io.github.david99999.gradle.notifier")
 
 ## Configuring task monitoring
 
-### You can use the `gradleNotifierConfig`extension if you want to execute a specific command after a task has finished
+#### You can use the `gradleNotifierConfig`extension if you want to execute a specific command after a task has finished
 
-### e.g: Watching success task execution of generic android app compilation ("assembleDebug")
+#### e.g: Watching success task execution of generic android app compilation ("assembleDebug")
 
 ```sh
 dependencies {
